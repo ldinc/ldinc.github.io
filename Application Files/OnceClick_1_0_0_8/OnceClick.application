@@ -10,6 +10,9 @@
     </subscription>
     <deploymentProvider codebase="http://ldinc.github.io/OnceClick.application" />
   </deployment>
+  <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
+    <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
+  </compatibleFrameworks>
   <dependency>
     <dependentAssembly dependencyType="install" codebase="Application Files\OnceClick_1_0_0_8\OnceClick.exe.manifest" size="7170">
       <assemblyIdentity name="OnceClick.exe" version="1.0.0.8" publicKeyToken="8ab7ea7bf1bfc351" language="neutral" processorArchitecture="msil" type="win32" />
@@ -17,13 +20,9 @@
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>xQI+pJ1kSi7M5OvkVWSYiodg9Dp6I2/q+zrk8pXWLkg=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GOy6gyFBqv8nQ2yob9Md3PPiTCl8REJVva2kaQvYr6k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
-    <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
-  </compatibleFrameworks>
-  <publisherIdentity name="CN=ldinc-PC\ldinc" issuerKeyHash="824f04777b371fff1fd57e13df5ae92200df8039" />
-</asmv1:assembly>
+<publisherIdentity name="CN=ldinc-PC\ldinc" issuerKeyHash="824f04777b371fff1fd57e13df5ae92200df8039" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Hc8bnWc2xto7EM3IxSgWbai4WnOstiGuDweSAKv/few=</DigestValue></Reference></SignedInfo><SignatureValue>bF7PMeWqbCU4EmsM3LhqHeD+Vmab8YJnjwu7IGDAUTszHq8GXWfR0y8RoXleM6qOJ/mOw4k+IDqDcUNjB3FoGqdPLPZBKmVkyvnxBGWnbqhtvNhZYF0vN0FLhNQn7Dn/VGidU6j76LmB+QtbCvZfFQoyUi0+dGdXMKpytBbzZh4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0Lqipst4po0j+pw5VBKcP6IlOllclcgBZeTIviW90LI1icaOwVJsR/qVmR3LFqGQZdayXx44xMShLWqq8nHYBVEL95k6pns5eWwd1fvqh7HR8ErveYSJ8KiNypS4TtwYGFA2ALNVVcRV7GYBjDGTe/h04USzZEGyeQE4ileGI3U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ec7dffab0092070fae21b6ac735ab8a86d1628c5c8cd103bdac636679d1bcf1d" Description="" Url=""><as:assemblyIdentity name="OnceClick.application" version="1.0.0.8" publicKeyToken="8ab7ea7bf1bfc351" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ldinc-PC\ldinc</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bKJeuSZjDzv6Ayu5veLkZ8xFd0emqTqBTi4j2mOs0FM=</DigestValue></Reference></SignedInfo><SignatureValue>G5yJ1vrlLWXQly8V1JsYdbmDl0To6pGBcIj9oISAe3Tp//djvgJInId2sBh7A1eS4lV+Kx3BCnsgEUq7bCAa12nbrjIUVh4UlKc3lk044kONNFvofco/8Fv36rKquYbR4F08nA4hXM9pykuQaOGygnYk+gp3x7gMFdkw/boFQLs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0Lqipst4po0j+pw5VBKcP6IlOllclcgBZeTIviW90LI1icaOwVJsR/qVmR3LFqGQZdayXx44xMShLWqq8nHYBVEL95k6pns5eWwd1fvqh7HR8ErveYSJ8KiNypS4TtwYGFA2ALNVVcRV7GYBjDGTe/h04USzZEGyeQE4ileGI3U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQQHMr8fXXFaNObW7So+HqQTANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAbABkAGkAbgBjAC0AUABDAFwAbABkAGkAbgBjMB4XDTE1MDQxOTIxMTQyNloXDTE2MDQxOTAzMTQyNlowJzElMCMGA1UEAx4cAGwAZABpAG4AYwAtAFAAQwBcAGwAZABpAG4AYzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0Lqipst4po0j+pw5VBKcP6IlOllclcgBZeTIviW90LI1icaOwVJsR/qVmR3LFqGQZdayXx44xMShLWqq8nHYBVEL95k6pns5eWwd1fvqh7HR8ErveYSJ8KiNypS4TtwYGFA2ALNVVcRV7GYBjDGTe/h04USzZEGyeQE4ileGI3UCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBnyfPn2Mz4KJJ9nPDwz0iZ9CL+grb+9HFOHdluO//068KnTxdxaaBs5DXxdo1q7ErtQ1KJ+8MvC/Usdo25lqLOgAVPw7+W1gLS4Ra94dvuQVF2o0h4gXD0sDfxpZT2cAQO7G0HTr4YKZe5qXV6Ej3KNOhEjsqwym1s7X6z984Gyw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
